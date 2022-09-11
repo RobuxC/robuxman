@@ -1,0 +1,12 @@
+.button{
+    text-decoration: none;
+    font-family: fantasy;
+    margin-bottom: 10px;
+    font-size: 30px;
+    color: #000;
+}
+
+body {
+    background-color: coral;
+}
+

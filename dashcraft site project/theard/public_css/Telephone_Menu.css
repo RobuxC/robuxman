@@ -1,0 +1,67 @@
+@media only screen and (max-width:  400px) {
+.news{
+	background-color: #2d2e2e;
+	border-radius: 4px;
+	-webkit-box-shadow: 6px 5px 16px 0px rgb(0 0 0 / 8%), 0 0 3px 1 px rgb(0 0 0 / 8%);
+	box-shadow: 6px 5px 16px 0px rgb(0 0 0 / 8%), 0 0 3px 1 px rgb(0 0 0 / 8%);
+	padding: 20px;
+	transition: all ease 1s;
+	margin-bottom: 30px;
+	color: white;
+	margin: -5px;
+}
+.link {
+	margin-left: 65px;
+	text-decoration: none;
+	color: white;
+	padding: 10px;
+	background-color: coral;
+	border-radius: 100px;
+}
+.link:hover {
+	color: white;
+	transition: all .4s ease-out;
+	margin-tp: 50px;
+}
+.post-header {
+	text-decoration: none;
+	color: white;
+}
+
+.post-header:hover {
+	color: coral;
+	transition: all .4s ease-out;
+}
+}
+.navbar-menu li{
+	display: inline-block;
+	font-size: 0;
+}
+.navbar-menu li a{
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+	text-decoration: none;
+	padding: 10px;
+	transition: all .09s ease-in-out;
+}
+.navbar-menu li a:hover {
+	opacity: 100;
+}
+.navbar-brend{
+	font-weight: 700;
+	font-size: 26px;
+	text-decoration: none;
+	color: #000;
+	margin-left: 105px;
+}
+.navbar-brend:hover {
+	color: coral;
+	transition: all .4s ease-in-out;
+}
+.news-content{
+	text-align: center;
+	padding-top: 30px;
+
+}
+}
